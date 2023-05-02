@@ -3,7 +3,7 @@ import React from 'react'
 
 export  function MobileParagraph() {
   return (
-    <div>  <div className="flex flex-col w-[480px] text-lg">
+    <div>  <div className="flex flex-col justify-center items-center  p-4 text-center sm:w-[480px] text-lg sm:justify-start sm:text-left sm:p-0 ">
     <p className=" font-bold text-[hsl(271,36%,24%)] text-xl">Simple booking</p>
     <p className=" text-[hsl(270,7%,64%)] ">
       {" "}

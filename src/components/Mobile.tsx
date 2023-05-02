@@ -16,12 +16,12 @@ export function Mobile({}: PropsMobile) {
     <div className="h-16 bg-gradient-to-r from-[hsl(264,100%,61%)] to-[hsl(293,100%,63%)] rounded-t-3xl flex  flex-col px-2 ">
         <div className="px-10 outline-none"><div className="w-full bg-white h-5  rounded-b-lg"></div></div>
    <div className="flex gap-2 items-center ">
-   <IoChevronBack className="h-8 w-8"/>
+   <IoChevronBack className="h-8 w-8 text-white"/>
    
    <Image className="w-auto h-8  rounded-full border" src={avatar} alt={""} />
    <div className=" flex flex-col">
     <p className="font-bold text-white">Samuel Green</p>
-    <p> Available to Walk</p>
+    <p className="text-[hsl(276,100%,81%)]"> Available to Walk</p>
    </div>
    </div>
 
@@ -79,7 +79,7 @@ export function MobileChatSpecial(props: specialMobileText) {
   <div className="flex justify-between ">
   <div className="flex justify-between items-center bg-gradient-to-r from-[hsl(264,100%,61%)] to-[hsl(293,100%,63%)] rounded-r-xl rounded-tl-xl rounded-bl-sm
 p-2 text-white">
-          <div  className="w-4 h-4 outline rounded-full outline-1" />
+          <div  className="w-4 h-4 text-[hsl(289,100%,72%)] outline rounded-full outline-1" />
           <p className="w p-2 radio-[ hsl(271,15%,43%)]   text-right p-2 ">{props.text1}</p>
           <p className="w p-2 radio-[ hsl(271,15%,43%)]   text-right p-2 font-bold  ">{props.text2}</p>
       </div>
