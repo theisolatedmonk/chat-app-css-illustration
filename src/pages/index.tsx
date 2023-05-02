@@ -5,7 +5,6 @@ import dog1 from "@/images/dog-image-1.jpg";
 import dog2 from "@/images/dog-image-2.jpg";
 import dog3 from "@/images/dog-image-3.jpg";
 import {MdNavigateNext} from "react-icons/md"
-import {IoChevronBack} from "react-icons/io"
 import { Mobile } from "@/components/Mobile";
 import { MobileParagraph } from "@/components/MobileParagraph";
 
